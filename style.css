@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+scroll-behavior: smooth;
+}
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    list-style: none;
+}
+/*      start header   */
+.navbar-dark .navbar-brand {
+    color: #fffbfb;
+    font-size: 35px; 
+}
+li.nav-item {
+    margin-left: 25px;
+    font-size: 23px;
+}
+/*      End header   */
+
+
+/*     Start home   */
+section#Home {
+    background: #cfc9c3;
+    overflow: hidden;
+    width: 100%;
+}
+h1.home-heading {
+    font-size: 53px;
+    text-transform: capitalize;
+    margin-top: 186px;
+}
+p.home-tex {
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+button.button {
+    font-size: 27px;
+    margin-top: 15px;
+    padding: 13px 30px;
+    border-radius: 6px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+}
+img.home-img {
+    height: 299px;
+    width: 82%;
+    margin-top: 186px;
+    border-radius: 5px;
+}
+/*     End  home   */
+
+/*    Start about  */
+
+img.About-img {
+    margin-top: 186px;
+    width: 108%;
+    height: 350px;
+    border-radius: 5px;
+}
+.title {
+    font-size: 28px;
+    margin-left: 186px;
+    margin-top: 186px;
+    font-family: math;
+    font-weight: bold;
+}
+h1.About-heading {
+    margin-left: 186px;
+    font-size: 43px;
+    text-transform: capitalize;
+}
+p.about-tex {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-left: 186px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button.about-button {
+    font-size: 27px;
+    margin-top: 15px;
+    padding: 13px 30px;
+    margin-left: 186px;
+    border-radius: 6px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    border:none;
+}
+/*    End   about  */
+
+/*    Start  Servicet  */
+
+
+.card {
+    border: navajowhite;
+    box-shadow: 2px 7px 9px 4px;
+    cursor: pointer;
+}
+span.sub-title {
+    text-align: center;
+    display: block;
+    color: green;
+    margin-top: 55px;
+    font-size: 26px;
+}
+h2.section-title {
+    text-align: center;
+    margin-bottom: 65px;
+    font-size: 52px;
+    padding: 0px;
+}
+img.service-img {
+    margin-left: 142px;
+    margin-top: 86px;
+    width: 19%;
+    height: 74px;
+    cursor: pointer;
+}
+.card-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.card-body {
+    font-size: 17px;
+    padding: 1px 31px;
+    margin-bottom: 24px;
+}
+
+button.card-btn {
+    background: #05ab05;
+    padding: 10px 5px;
+    font-size: 29px;
+    color: white;
+    border: navajowhite;
+    border-radius: 8px;
+    font-weight: 700;
+}
+/*    End   Service  */
+
+/*    start  menu */
+
+h6.menu-subtitle {
+    text-align: center;
+    margin-top: 38px;
+    color: green;
+    font-size: 29px;
+}
+h2.menu-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 75px;
+}
+.card-heading {
+    text-align: center;
+    margin-top: 26px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.card-tex {
+    margin-left: 86px;
+    font-size: 18px;
+}
+.card-price {
+    margin-left: 86px;
+    padding: 3px;
+}
+i.fas.fa-shopping-cart {
+    margin-left: 314px;
+    margin-top: 14px;
+    font-size: 27px;
+}
+/*    End menu */
+
+/*     sub menu   */
+
+img.contact-img {
+    margin-top: 113px;
+}
+h6.menu-subheading {
+    margin-top: 157px;
+    text-align: center;
+    font-size: 29px;
+    color: green;
+}
+h1.menu-heading {
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 17px;
+    margin-left: 218px;
+}
+p.menu-text {
+    margin-left: 237px;
+    margin-top: 22px;
+}
+button.btn-outline-green {
+    margin-left: 238px;
+    margin-top: 60px;
+    padding: 20px 65px;
+    background: green;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: capitalize;
+    border-radius: 2px;
+}
+/*   end  sub menu   */
+
+
+/*       start  contact us   */
+
+h6.contact-subtitle {
+    font-size: 23px;
+    color: green;
+    margin-top: 81px;
+}
+h2.contact-title {
+    font-size: 39px;
+    font-weight: bold;
+}
+p.contact-text {
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+.contact-button {
+    margin-left: 231px;
+    margin-top: 153px;
+    font-size: 24px;
+}
+button {
+    margin-top: 100px;
+    margin-left: 237px;
+    padding: 15px 67px;
+    background: green;
+    color: white;
+    font-size: 21px;
+    border: none;
+    border-radius: 2px;
+}
+/*       end contact us   */
+
+/*       start   footer     */
+section#Footer {
+    background: linear-gradient(45deg, #73cc38, #ff00006b);
+    height: 349px;
+}
+h4.footer-heading {
+    color: green;
+    font-size: 30px;
+    margin-top: 75px;
+}
+.icon i {
+    margin: 7px;
+    font-size: 23px;
+}
+h3.footer-content {
+    text-align: start;
+    font-size: 28px;
+    margin-top: 75px;
+    color: green;
+}
+ul.footer-menu li {
+    list-style: none;
+    margin: 4px;
+    padding: 5px;
+}
+ul.footer-menu li a {
+    color: white;
+    font-weight: bold;
+}
+ul.footer-menu li a:hover{
+    text-decoration: none;
+}
+p.footer-copy {
+    margin-left: 388px;
+    margin-top: 22px;
+    font-size: 19px;
+}
+/*      End  footer     */

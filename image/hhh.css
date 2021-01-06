@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    height: 100px;
+    width: 100px;
+    background: 
+    position: relative;
+   z-index: 0;
+}
+.box {
+    width: 1000%;
+    height: 75px;
+    background: darkgreen;
+    position: relative;
+    left: 100%;
+    top: 70%;
+}
+.box::after, .box::before{
+   content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: -1;
+    background: red;
+}
+.box::before {
+    top: 12px;
+    left: -26px;
+}
+.box::after{
+    top: 12px;
+    right: -26px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding: 13px;
+    display: block;
+    border: 1px solid red;
+    border-top: 5px solid #212dbe;
+}
